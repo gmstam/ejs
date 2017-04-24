@@ -1,0 +1,29 @@
+extends layout
+
+block content
+	h1=title
+	table.usertable
+		thead
+			tr
+				th.
+					Nome
+				th.
+					Cognome
+				th.
+					Username
+				th.
+					Email
+		tbody
+			each user, i in userlist
+				tr
+					td.
+						#{user.nome}
+					td.
+						#{user.cognome}
+					td.
+						#{user.username}
+					td.
+						#{user.email}
+	p.
+		<br>
+		<a href="http://localhost:3000">Go Back</a>

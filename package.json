@@ -1,0 +1,27 @@
+{
+  "name": "ejs",
+  "version": "1.0.0",
+  "description": "Node with Express, Jade and Stylus",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~3.0.0",
+    "jade": "*",
+    "nib": "*",
+    "stylus": "*",
+    "mongodb": "*",
+    "monk": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/gmstam/ejs.git"
+  },
+  "author": "gmstam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmstam/ejs/issues"
+  },
+  "homepage": "https://github.com/gmstam/ejs#readme"
+}
